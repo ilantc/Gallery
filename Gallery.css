@@ -48,12 +48,49 @@
     margin-top: 5%;
     margin-right: 40%;
     margin-left: 40%;
-    display: block;
     text-align: center;
     padding-right: 5%;
     padding-left: 5%;
     padding-bottom: 1%;
     background: white;
-    z-index: 1;
+    z-index: 2;
     visibility: hidden;
+}
+
+#picView {
+    margin: 3%;
+    height: 60%;
+    padding: 3%;
+    position: fixed;
+    left: 30%;
+    z-index: 1;
+    border: solid 1px;
+    background: white;
+    visibility: hidden;
+}
+
+#picViewImg {
+    max-height: 100%;
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.clickable {
+    color: blue;
+}
+
+#close {
+    margin: 0 auto;
+    width: 10px;
+    display: block;
+}
+
+#next {
+    float: right;
+}
+
+#prev {
+    float: left;
 }
